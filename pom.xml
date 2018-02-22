@@ -12,13 +12,13 @@
 
   <distributionManagement>
     <repository>
-      <id>nexus</id>
-      <url>http://localhost:8081/nexus/content/repositories/releases</url>
+      <id>Nexus</id>
+      <url>http://192.168.20.193:6081/repository/success/</url>
     </repository>
-    <snapshotRepository>
+    <!--<snapshotRepository>
       <id>nexus</id>
       <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-    </snapshotRepository>
+    </snapshotRepository>-->
   </distributionManagement>
 
   <dependencies>
