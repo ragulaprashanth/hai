@@ -8,18 +8,19 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <junit.version>3.8.1</junit.version>
   </properties>
 
-  <distributionManagement>
+ <!-- <distributionManagement>
     <repository>
       <id>Nexus</id>
       <url>http://192.168.20.193:6081/repository/success/</url>
-    </repository>
+    </repository>-->
     <!--<snapshotRepository>
       <id>nexus</id>
       <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>-->
-  </distributionManagement>
+  <!--</distributionManagement>-->
 
   <dependencies>
     <dependency>
