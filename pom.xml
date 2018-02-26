@@ -8,7 +8,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <junit.version>4.12</junit.version>
   </properties>
 
  <!-- <distributionManagement>
@@ -26,7 +25,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>${junit.version}</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
